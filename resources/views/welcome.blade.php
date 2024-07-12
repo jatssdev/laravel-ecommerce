@@ -12,6 +12,7 @@
     <h1>{{@session('error')}}</h1>
 
 @endif
+
 <div class="grid grid-cols-12 gap-6 px-20 py-12">
     @foreach ($products as $product)
 

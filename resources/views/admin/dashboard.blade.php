@@ -16,12 +16,7 @@
 </head>
 
 <body>
-    <form action="{{ route('admin.product.storeall') }}" method="POST">
-        @csrf
-        <textarea name="earbuds" rows="10" cols="50" placeholder="Paste JSON data here"></textarea>
-        <br>
-        <button type="submit">Submit</button>
-    </form>
+    <h1>Dashboard</h1>
 </body>
 
 </html>

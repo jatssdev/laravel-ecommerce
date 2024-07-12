@@ -43,6 +43,9 @@ Route::prefix('admin')->group(function () {
     Route::get('/', function () {
         return view('admin.dashboard');
     })->name('admin');
+    Route::get('/storeall', function () {
+        return view('admin.addjson');
+    })->name('admin.storeall');
 
 
     Route::get('/products', function () {
